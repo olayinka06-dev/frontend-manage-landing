@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,25 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+/* .btn{
+  @apply py-2 px-7 text-white border-none rounded-3xl transition
+} */
+.nav-link {
+  @apply text-color-dark-blue md:font-semibold font-bold hover:text-color-grayish-blue;
+}
+.paragraph {
+  @apply text-color-grayish-blue text-xl leading-relaxed
+}
+.header2 {
+  @apply text-4xl font-bold text-color-dark-blue 
+}
+.btn {
+  @apply text-color-pale-red bg-color-red py-2 px-5 rounded-3xl shadow-color-light-gray hover:bg-color-red-fade ease-in
+}
+.toggler {
+  @apply h-[50vh] py-4
+}
+.line {
+  @apply bg-black w-[25px] h-[2px] transition-all ease-in duration-200
 }
