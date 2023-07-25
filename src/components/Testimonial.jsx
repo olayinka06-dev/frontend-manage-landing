@@ -1,8 +1,8 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Breakpoints } from "swiper/core";
-SwiperCore.use([Autoplay, Pagination, Breakpoints]);
 SwiperCore.use([Autoplay, Pagination, Breakpoints]);
 
 const Card = ({ img, name, text }) => {
@@ -19,7 +19,7 @@ const Card = ({ img, name, text }) => {
   );
 };
 
-const Swiper = () => {
+const Testimonial = () => {
   const breakpoints = {
     640: {
       slidesPerView: 1,
@@ -134,4 +134,4 @@ const Swiper = () => {
   );
 };
 
-export default Swiper;
+export default Testimonial;

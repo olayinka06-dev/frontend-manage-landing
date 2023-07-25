@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import { FaInfoCircle } from "react-icons/fa";
 
 const Footer = () => {
   const [text, setText] = useState("");
